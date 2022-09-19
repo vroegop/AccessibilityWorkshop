@@ -3,6 +3,6 @@
     "@marp-team/marp-cli": "^2.1.4"
   },
   "scripts": {
-    "build": "npx marp --output=dist --input-dir=src --allow-local-files"
+    "build": "npx marp --html --output=dist --input-dir=src --allow-local-files"
   }
 }
